@@ -5,7 +5,7 @@ import (
 	"golangStudy/stringutil"
 )
 
-func functions() {
+func function_() {
 	fmt.Println("***** 函数调用 *****")
 	fmt.Println(add(42, 13))
 	fmt.Println(sub(42, 13))

@@ -1,20 +1,19 @@
 package main
 
-import "os"
-
 func main() {
 	//fmt.Printf("Hello World!\n")
 
 	//fmt.Println("My favorite number is", rand.Intn(10))
 	//fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
 
-	//functions() // 函数
-	//variables() // 变量
-	//constants() // 常量
-	loop() // for 循环
-	os.Exit(0)
-	defers()   // defer 关键字
-	pointers() // 指针
-	structs()  // 结构体
-	array()    // 数组
+	//function_() // 函数
+	//variable_() // 变量
+	//constant_() // 常量
+	//for_() // for 循环
+	//if_() // if 语句
+	//switch_() // switch 语句
+	//defer_() // defer 语句
+	//pointer_() // 指针
+	//struct_() // 结构体
+	array() // 数组
 }

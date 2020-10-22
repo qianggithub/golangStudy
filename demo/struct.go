@@ -21,7 +21,7 @@ var (
 	v4 = &Vertex{1, 2} // 创建一个 *Vertex 类型的结构体（指针）
 )
 
-func structs() {
+func struct_() {
 	fmt.Println(Student{})
 	fmt.Println(v1, v2, v3, v4)
 

@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-func loop() {
+func for_() {
 	fmt.Println("***** for 循环 *****")
 	forTest1()
 	forTest2()
@@ -10,6 +13,10 @@ func loop() {
 
 	fmt.Println("***** while *****")
 	while()
+	fmt.Println()
+
+	fmt.Println("***** 无限循环 *****")
+	infiniteLoop()
 	fmt.Println()
 }
 
@@ -29,7 +36,7 @@ func forTest1() {
 	fmt.Println(sum) // 返回 1
 }
 
-// for 循环 精简版
+// for 循环精简版
 func forTest2() {
 	sum := 1
 	for ; sum < 1000; {
@@ -45,4 +52,12 @@ func while() {
 		sum += sum
 	}
 	fmt.Println(sum)
+}
+
+// 无限循环
+func infiniteLoop() {
+	for {
+		fmt.Println("无限循环")
+		time.Sleep(time.Duration(2) * time.Second)
+	}
 }

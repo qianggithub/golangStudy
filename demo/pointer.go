@@ -5,7 +5,7 @@ import "fmt"
 // 类型 *T 是指向 T 类型值的指针。指针保存了值的内存地址。其零值为 nil。
 var p *int
 
-func pointers() {
+func pointer_() {
 	fmt.Println(p)
 
 	i, j := 42, 2701
