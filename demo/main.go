@@ -15,5 +15,5 @@ func main() {
 	//defer_() // defer 语句
 	//pointer_() // 指针
 	//struct_() // 结构体
-	array() // 数组
+	array_() // 数组
 }
